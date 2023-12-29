@@ -1,0 +1,29 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'React Project' --rootDir ./app-script",
+    "gclone": "clasp clone 15ImUCpyi1Jsd8yF8Z6wey_7cw793CymWTLxOqwMka3P1CzE5hQun6qiC --rootDir ./app-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./app-script",
+    "build": "parcel build src/index.html --dist-dir ./app-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.78",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
