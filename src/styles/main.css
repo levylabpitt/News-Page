@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    aspect-ratio: 16/9;
+    width: 464px;
+    height: 261px;
+}
+
+.image{
+    display:grid;
+    place-items: center;
+}
+
+.page{
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.image{
+    width: 40%;
+}
+
+.content{
+    width: 60%;
+}
+
+.read-more{
+    display: grid;
+    place-items: center;
+}
+
+button{
+    background-color: #d0cdcd;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100%;
+}
+
+button:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
+
+p{
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.65;
+}
