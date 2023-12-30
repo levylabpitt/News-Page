@@ -1,4 +1,4 @@
-### Documentation
+## Documentation
 
 How to make changes to the News Page using Google App Scripts and React (parcel and clasp)
 
