@@ -1,12 +1,14 @@
 # Documentation
 
-How to make changes to the News Page using Google App Scripts and React (parcel and clasp)
+How to make changes to the News Page.
 
-### Cloning Repository
+The Google App Scripts News Web Page uses clasp to create a React App that compiles into Google App Scripts. It also uses parcel to allow for real-time development.
+
+## Cloning Repository
 
 After cloning the repository onto your local machine, run `npm install` in your terminal to install all the dependencies from package.json file. Make sure git and github are logged in with your levylab credentials.
 
-### Making changes
+## Making changes
 
 Go to `https://script.google.com/d/1s6_Q4AAlkTgydD1vmA9Yx2tAjkK1lLESRKhE_8m5JBl8AabTqOEJt44R/edit?usp=sharing`, and open the test deployment by clicking deploy on the top right --> test deployments --> URL. This should open the test deployment of the web page in a new tab.
 
@@ -16,14 +18,14 @@ After logging in, run `npm run gpull`. This will pull the existing code from goo
 
 Now run `npm start`. This will uses `parcel` to build the `./app-script/index.html` on your local machine. Now open a new terminal, run `npm run gpull` again to ensure everything is still up do date, and then run `npm run gstart`. This is essentially using `clasp` to watch for changes on your local machine and pushes those changes to google app scripts in real time. Any changes you make on your local machine should change on the test deployment from google app scripts. Refresh the test deployment to see these changes.
 
-### Deployment
+## Deployment
 
 After making then necessary changes, go back to google app scripts. Go to deploy --> Manage Deployments. Go to the `News Page` Deployment, click edit on the top right, and change the version to the latest version, then click deploy. This should update the site on google sites automatically.
 
-### Pushing to GitHub
+## Pushing to GitHub
 
 When making any changes and after deploying, make sure to push changes onto github as well.
 
-### Importance of `npm run gpull`
+## Importance of `npm run gpull`
 
 When opening the project on your local machine and running `npm run glogin`, make sure to run `npm run gpull` on all terminals before making any other commands to make sure everything is up to date.
