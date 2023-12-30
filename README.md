@@ -10,6 +10,8 @@ After cloning the repository onto your local machine, run `npm install` in your 
 
 ## Making changes
 
+First, enable to Google App Scripts API `https://script.google.com/home/usersettings`.
+
 Go to `https://script.google.com/d/1s6_Q4AAlkTgydD1vmA9Yx2tAjkK1lLESRKhE_8m5JBl8AabTqOEJt44R/edit?usp=sharing`, and open the test deployment by clicking deploy on the top right --> test deployments --> URL. This should open the test deployment of the web page in a new tab.
 
 In your local project, open a new terminal and run `npm run glogin`. This will allow `clasp` to connect to the app script using your levylab email in order to make changes. Continue with the authorization until the webpage prompts that you can close the tab.
@@ -29,3 +31,8 @@ When making any changes and after deploying, make sure to push changes onto gith
 ## Importance of `npm run gpull`
 
 When opening the project on your local machine and running `npm run glogin`, make sure to run `npm run gpull` on all terminals before making any other commands to make sure everything is up to date.
+
+## Issues
+
+If you have any issues regarding connecting the project to Google App Scripts, check the documentation of `clasp`
+`https://github.com/google/clasp`
