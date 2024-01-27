@@ -22,7 +22,7 @@ Now run `npm start`. This will uses `parcel` to build the `./app-script/index.ht
 
 ## Deployment
 
-After making then necessary changes, go back to google app scripts. Go to deploy --> Manage Deployments. Go to the `Research Page` Deployment, click edit on the top right, and change the version to the latest version, then click deploy. This should update the site on google sites automatically.
+After making then necessary changes, go back to google app scripts. Go to deploy --> Manage Deployments. Go to the `News Page` Deployment, click edit on the top right, and change the version to the latest version, then click deploy. This should update the site on google sites automatically.
 
 ## Pushing to GitHub
 
